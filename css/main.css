@@ -425,7 +425,7 @@ nav .logo{
   width: 100%;
 }
 @media (max-width:768px) {
-  .srv-heading h1{
+  .contact-heading h1{
     font-size: 60px;
   }
   .srv-heading p{
