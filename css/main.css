@@ -38,7 +38,7 @@ body{
   font-family: "Work Sans", sans-serif;/********/
 }
 .heading-text{
-  text-align: center;
+  text-align: center;  
 }
 .heading-text h1{
   color: #ebeced;
@@ -53,7 +53,7 @@ body{
   color: #797979;
   margin-top: -30px;
 }
-@media (max-width:768px) {
+@media (max-width: 768px){
   .heading-text h1{
     font-size: 60px;
   }
