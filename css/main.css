@@ -8,21 +8,6 @@
 .heding{
   text-align: center;  
 }
-/*---sections/heading---*/
-.heading-h1{
-  color: #ebeced;
-  font-size: 100px;
-  font-weight: 800;
-  letter-spacing: -3px;
-  margin: 0px;
-}
-.heading-p{
-  font-size: 20px;
-  font-weight: 400;
-  color: #797979;
-  margin-top: -30px;
-}
-/*---sections/heading---*/
 /*---------------------------variables------------------------*/
 /*-----glopal-----*/
 html{
@@ -51,6 +36,30 @@ ul{list-style-type: none}
 }
 body{
   font-family: "Work Sans", sans-serif;/********/
+}
+.headingtext{
+  text-align: center;
+}
+.heading-text h1{
+  color: #ebeced;
+  font-size: 100px;
+  font-weight: 800;
+  letter-spacing: -3px;
+  margin: 0px;
+}
+.heading-text p{
+  font-size: 20px;
+  font-weight: 400;
+  color: #797979;
+  margin-top: -30px;
+}
+@media (max-width:768px) {
+  .heading-text h1{
+    font-size: 60px;
+  }
+  .heading-text p{
+    margin-top: -20px;
+  }
 }
 /*-----glopal-----*/
 /*-------------------------nav-----------------------*/
@@ -203,17 +212,6 @@ nav .logo{
   padding: 0px 15px;
   margin: 0px auto;
 }
-.srv-heading{
-  text-align: center;
-}
-@media (max-width:768px) {
-  .srv-heading h1{
-    font-size: 60px;
-  }
-  .srv-heading p{
-    margin-top: -20px;
-  }
-}
 .srv-cols{
   display: grid;
   grid-template-columns: repeat(auto-fill , minmax(300px , 1fr));
@@ -290,17 +288,6 @@ nav .logo{
   margin: 0px auto 0px auto;
   padding:  0px 15px;
 }
-.port-heading{
-  text-align: center;
-}
-@media (max-width:768px) {
-  .port-heading h1{
-    font-size: 60px;
-  }
-  .port-heading p{
-    margin-top: -20px;
-  }
-}
 .project{
   display: grid;
   grid-template-columns: repeat(auto-fill , minmax(300px , 1fr));
@@ -332,17 +319,6 @@ nav .logo{
 .about .container{
   margin: 0px auto 0px auto;
   padding:  0px 15px;
-}
-.about-heading{
-  text-align: center;
-}
-@media (max-width:768px) {
-  .about-heading h1{
-    font-size: 60px;
-  }
-  .about-heading p{
-    margin-top: -20px;
-  }
 }
 .about-info{
   display: flex;
@@ -418,19 +394,8 @@ nav .logo{
   padding: 60px 0px;
   background-color: #f6f6f6;
 }
-.contact-heading{
-  text-align: center;
-}
 .contact .container{
   width: 100%;
-}
-@media (max-width:768px) {
-  .contact-heading h1{
-    font-size: 60px;
-  }
-  .srv-heading p{
-    margin-top: -20px;
-  }
 }
 .contact-info{
   margin-top: 60px;
